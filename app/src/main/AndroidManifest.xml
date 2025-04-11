@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taller2">
+
+    <application
+        android:allowBackup="true"
+        android:label="Taller 2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FibonacciActivity" android:exported="false"/>
+        <activity android:name=".EcuacionActivity" android:exported="false"/>
+        <activity android:name=".OrdenarActivity" android:exported="false"/>
+        <activity android:name=".MenuActivity" android:exported="false"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese valor de a"/>
+
+    <EditText
+        android:id="@+id/inputB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese valor de b"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/inputC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese valor de c"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/resultadoEcuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aquí"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
